@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Koyal — You talk. Koyal transcribes.</title>
+  <meta name="description" content="Koyal is a fully offline, privacy-first voice transcription app for Windows and Android. Your voice, your device. No cloud. No data collection." />
+  <meta name="theme-color" content="#09090b" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Fraunces:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-brand">
+        <img src="assets/logo.jpg" alt="Koyal" class="nav-logo" />
+        <span class="nav-name">koyal</span>
+      </a>
+      <div class="nav-links">
+        <a href="#how-it-works">how it works</a>
+        <a href="#models">models</a>
+        <a href="#privacy">privacy</a>
+        <a href="https://github.com" target="_blank" rel="noopener">github</a>
+        <a href="#download" class="btn btn-nav">download</a>
+      </div>
+    </div>
+  </nav>
+  <div class="grain" aria-hidden="true"></div>
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-glow"></div>
+      <div class="hero-pattern"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge"><span class="badge-dot"></span><span>100% offline · no cloud · no data</span></div>
+      <h1 class="hero-headline" id="heroHeadline">
+        <span class="line">you talk.</span>
+        <span class="line accent-text">koyal transcribes.</span>
+      </h1>
+      <p class="hero-sub">Hold <kbd>C</kbd> and speak. Polished text appears wherever your cursor is. <strong>All on your device. Always.</strong></p>
+      <div class="hero-wave" aria-hidden="true" id="heroWave">
+        <i style="--h:.42"></i><i style="--h:.78"></i><i style="--h:.56"></i>
+        <i style="--h:.9"></i><i style="--h:.64"></i><i style="--h:.48"></i>
+        <i style="--h:.83"></i><i style="--h:.31"></i><i style="--h:.69"></i>
+        <i style="--h:.57"></i><i style="--h:.92"></i><i style="--h:.44"></i>
+      </div>
+      <div class="hero-actions" id="download">
+        <a href="https://github.com" class="btn btn-primary btn-large">Download for Windows</a>
+        <a href="https://play.google.com" class="btn btn-secondary btn-large" target="_blank" rel="noopener">Get for Android</a>
+      </div>
+      <p class="hero-footnote">Free and open source · Windows 10+ · Android 8+</p>
+    </div>
+    <div class="hero-mascot" aria-hidden="true">
+      <img src="assets/logo.jpg" alt="" class="mascot-img" id="mascotImg" />
+    </div>
+  </section>
+  <section class="section how-section" id="how-it-works">
+    <div class="container">
+      <header class="section-header">
+        <p class="eyebrow">how it works</p>
+        <h2>three steps. that is it.</h2>
+      </header>
+      <div class="steps-grid">
+        <div class="step-card" data-reveal>
+          <div class="step-number">01</div>
+          <div class="step-icon"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="22" r="6" fill="currentColor"/><path d="M14 34c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <h3>hold C on Windows or tap bubble on Android</h3>
+          <p>A recording overlay appears. Speak naturally.</p>
+        </div>
+        <div class="step-card" data-reveal data-delay="100">
+          <div class="step-number">02</div>
+          <div class="step-icon"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="14" width="36" height="24" rx="4" stroke="currentColor" stroke-width="2"/><path d="M16 22h4M16 28h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <h3>koyal transcribes locally</h3>
+          <p>Your audio never leaves your device. The AI runs entirely on-chip.</p>
+        </div>
+        <div class="step-card" data-reveal data-delay="200">
+          <div class="step-number">03</div>
+          <div class="step-icon"><svg viewBox="0 0 48 48" fill="none"><path d="M8 24h32M30 16l8 8-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>text lands at your cursor</h3>
+          <p>Works in any app — Slack, WhatsApp, Notion, everywhere.</p>
+        </div>
+      </div>
+      <div class="demo-window" data-reveal>
+        <div class="demo-chrome">
+          <span class="chrome-dot" style="background:#ff5f57"></span>
+          <span class="chrome-dot" style="background:#febc2e"></span>
+          <span class="chrome-dot" style="background:#28c840"></span>
+          <span class="chrome-title">Slack — #general</span>
+        </div>
+        <div class="demo-body">
+          <div class="demo-said"><span class="demo-label">you said</span><p>"okay um quick update the backend is done uh tag priya she should review before the standup"</p></div>
+          <div class="demo-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg><span class="demo-badge">koyal polished</span></div>
+          <div class="demo-result">
+            <div class="demo-slack-msg">
+              <span class="slack-avatar">p</span>
+              <div class="slack-content"><strong>pranav</strong><small>just now</small><p>Quick update: the backend is done. <span class="mention">@Priya</span> should review before standup.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section models-section" id="models">
+    <div class="container">
+      <header class="section-header">
+        <p class="eyebrow">on-device models</p>
+        <h2>choose your koyal.</h2>
+        <p class="section-sub">Download once. Works forever. No internet required after setup.</p>
+      </header>
+      <div class="models-grid">
+        <div class="model-card" data-reveal>
+          <div class="model-badge">Lite</div>
+          <h3>Koyal Lite</h3>
+          <p class="model-engine">openai/whisper-small</p>
+          <ul class="model-specs">
+            <li><span>Size</span><strong>466 MB</strong></li>
+            <li><span>RAM</span><strong>~850 MB</strong></li>
+            <li><span>Speed</span><strong>Near real-time</strong></li>
+            <li><span>Best for</span><strong>Everyday use</strong></li>
+          </ul>
+          <p class="model-desc">Fast and accurate enough for most daily transcription. Great on mid-range phones and older PCs.</p>
+          <div class="model-tag">recommended for most users</div>
+        </div>
+        <div class="model-card model-card--featured" data-reveal data-delay="100">
+          <div class="model-badge model-badge--featured">Medium</div>
+          <h3>Koyal Medium</h3>
+          <p class="model-engine">nyrahealth/CrisperWhisper</p>
+          <ul class="model-specs">
+            <li><span>Size</span><strong>1.5 GB</strong></li>
+            <li><span>RAM</span><strong>~2.1 GB</strong></li>
+            <li><span>Speed</span><strong>Slightly slower</strong></li>
+            <li><span>Best for</span><strong>Precision work</strong></li>
+          </ul>
+          <p class="model-desc">Clinical-grade accuracy with crisp timestamps. For complex vocabulary and technical dictation.</p>
+          <div class="model-tag model-tag--featured">highest accuracy · 6 GB+ RAM recommended</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section privacy-section" id="privacy">
+    <div class="container privacy-content">
+      <div class="privacy-text" data-reveal>
+        <p class="eyebrow">privacy</p>
+        <h2>your voice stays yours.</h2>
+        <p>We do not have servers. We do not have a backend. There is nothing to breach because there is nothing to store.</p>
+        <ul class="privacy-list">
+          <li>No microphone data ever leaves your device</li>
+          <li>Works fully offline after model download</li>
+          <li>Open source — verify everything yourself</li>
+          <li>Delete your history anytime, locally</li>
+        </ul>
+      </div>
+      <div class="privacy-visual" data-reveal data-delay="100" aria-hidden="true">
+        <div class="privacy-shield">
+          <svg viewBox="0 0 120 140" fill="none">
+            <path d="M60 8L12 30v40c0 33 21.3 55 48 62 26.7-7 48-29 48-62V30L60 8z" fill="#111113" stroke="#c8ff00" stroke-width="2"/>
+            <path d="M40 70l14 14 26-26" stroke="#c8ff00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p class="shield-label">zero cloud</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta-band">
+    <div class="cta-bg" aria-hidden="true"><div class="cta-pattern"></div><div class="cta-glow"></div></div>
+    <div class="container cta-content">
+      <img src="assets/logo.jpg" alt="Koyal" class="cta-logo" />
+      <h2 class="cta-headline">ready to stop typing?</h2>
+      <p class="cta-sub">Download Koyal free. Your voice. Your device. Forever offline.</p>
+      <div class="cta-actions">
+        <a href="#download" class="btn btn-primary btn-large">Download for Windows</a>
+        <a href="https://github.com" class="btn btn-ghost" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><img src="assets/logo.jpg" alt="Koyal" class="footer-logo" /><span>koyal</span></div>
+      <nav class="footer-links"><a href="#how-it-works">how it works</a><a href="#models">models</a><a href="#privacy">privacy</a><a href="https://github.com" target="_blank" rel="noopener">github</a></nav>
+      <p class="footer-copy">2026 Koyal. Built with whisper.cpp. Open source and offline.</p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

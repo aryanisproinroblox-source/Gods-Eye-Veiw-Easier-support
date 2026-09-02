@@ -1,0 +1,9 @@
+customtkinter
+pynput
+sounddevice
+numpy
+faster-whisper
+pyautogui
+pystray
+Pillow
+huggingface-hub
