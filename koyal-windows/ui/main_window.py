@@ -1,5 +1,8 @@
 import customtkinter as ctk
-from .theme import BG_COLOR, SURFACE_COLOR, ACCENT_COLOR, TEXT_COLOR
+try:
+    from ui.theme import BG_COLOR, SURFACE_COLOR, ACCENT_COLOR, TEXT_COLOR
+except ImportError:
+    from theme import BG_COLOR, SURFACE_COLOR, ACCENT_COLOR, TEXT_COLOR
 
 class MainWindow(ctk.CTk):
     def __init__(self, db):

@@ -1,6 +1,9 @@
 import customtkinter as ctk
 import threading
-from .theme import BG_COLOR, SURFACE_COLOR, ACCENT_COLOR, TEXT_COLOR
+try:
+    from ui.theme import BG_COLOR, SURFACE_COLOR, ACCENT_COLOR, TEXT_COLOR
+except ImportError:
+    from theme import BG_COLOR, SURFACE_COLOR, ACCENT_COLOR, TEXT_COLOR
 from model_downloader import download_model
 
 class ModelDownloadScreen(ctk.CTkToplevel):

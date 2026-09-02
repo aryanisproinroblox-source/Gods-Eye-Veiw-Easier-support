@@ -1,6 +1,6 @@
 import huggingface_hub
 import os
-from .config import CONFIG_DIR
+from config import CONFIG_DIR
 
 MODEL_DIR = os.path.join(CONFIG_DIR, 'models')
 
