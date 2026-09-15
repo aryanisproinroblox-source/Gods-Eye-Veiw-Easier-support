@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="koyal_bg">#09090b</color>
-    <color name="koyal_surface">#111113</color>
-    <color name="koyal_accent">#c8ff00</color>
-</resources>

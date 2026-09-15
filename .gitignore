@@ -1,29 +1,14 @@
-﻿# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.egg-info/
-dist/
-build/
-.venv/
-venv/
-env/
-*.spec
-
-# Models (large binary files)
-koyal-windows/models/
-koyal-android/app/src/main/assets/models/
-
-# Android
-koyal-android/.gradle/
-koyal-android/app/build/
-koyal-android/local.properties
-*.apk
-*.aab
-
-# Misc
-.DS_Store
-Thumbs.db
-*.log
+node_modules
+dist
 .env
-*.db
+*.log
+screenshots/
+qa-shots/
+output/
+.gev-logs/
+.gev-cache/
+.DS_Store
+.gstack/
+3d-models/
+pinokio/ENVIRONMENT
+pinokio/.installed
