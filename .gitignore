@@ -12,3 +12,7 @@ output/
 3d-models/
 pinokio/ENVIRONMENT
 pinokio/.installed
+
+dist-electron/
+.github/workflows/
+
